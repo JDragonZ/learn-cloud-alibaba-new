@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: nacos-config-one
+  cloud:
+    nacos:
+      config:
+        group: DEFAULT_GROUP
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        namespace: 2bd234d4-8aca-4b6a-a98f-78efb19ffc46
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+#        ext-config:
+#  profiles:
+#    active: dev
+server:
+  port: 9021

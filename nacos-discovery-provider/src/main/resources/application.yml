@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: nacos-discovery-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+server:
+  port: 9011
+
+logging:
+  file: provi.log
+  level:
+    root: debug
+    cn.moretv.cloud.provider: debug
