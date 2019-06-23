@@ -59,7 +59,7 @@ release:<https://github.com/alibaba/nacos/releases>
 
 1. 服务上下线：
 
-   ![1561277384800](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561277384800.png)
+   ![1561277384800](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561277384800.png)
 
 2. 负载均衡
 
@@ -77,9 +77,9 @@ release:<https://github.com/alibaba/nacos/releases>
        private LoadBalancerClient loadBalancerClient;
    ```
 
-   ![1561278378778](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561278378778.png)
+   ![1561278378778](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561278378778.png)
 
-   ![1561278408873](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561278408873.png)
+   ![1561278408873](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561278408873.png)
 
 3. 权重分流；权重元数据 nocosServer.getMetadata(); 灰度发布；
 
@@ -109,7 +109,7 @@ release:<https://github.com/alibaba/nacos/releases>
 3. 实现无状态服务变得简单，让服务按需弹性扩展变得容易。
 4. Nacos提供了简洁的UI帮助我们管理各个环境的所有服务配置。一件回滚配置以及客户端配置更新状态跟踪在内的一系列开箱即用的配置管理特性，帮助更安全的在生产环境中管理配置和降低配置变更带来的风险。
 
-![1561282654964](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561282654964.png)
+![1561282654964](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561282654964.png)
 
 ```xml
 <dependency>
@@ -143,7 +143,7 @@ server:
 
 - namespace: 级别最高的
 
-  ![1561285394257](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561285394257.png)
+  ![1561285394257](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561285394257.png)
 
 ##### 共享规则
 
@@ -173,9 +173,9 @@ db.user=root
 db.password=123456
 ```
 
-![1561286361227](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561286361227.png)
+![1561286361227](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561286361227.png)
 
-![1561286398562](C:\Users\CRIKEY\AppData\Roaming\Typora\typora-user-images\1561286398562.png)
+![1561286398562](https://github.com/JDragonZ/learn-cloud-alibaba-new/tree/master/images/1561286398562.png)
 
 ### nacos集群搭建
 
