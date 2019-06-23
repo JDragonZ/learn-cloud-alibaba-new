@@ -185,3 +185,7 @@ db.password=123456
 
 [官方]: https://nacos.io/zh-cn/docs/cluster-mode-quick-start.html	"集群模式部署"
 
+
+
+
+
