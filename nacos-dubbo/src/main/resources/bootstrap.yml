@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: nacos-dubbo-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 2bd234d4-8aca-4b6a-a98f-78efb19ffc46
+#        shared-dataids: common.yml
+#        refreshable-dataids: common.yml
+#        ext-config:
+#  profiles:
+#    active: dev
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://localhost
+  scan:
+    base-packages: cn.moretv.cloud.nacosdubbo.service.impl
+server:
+  port: 9030

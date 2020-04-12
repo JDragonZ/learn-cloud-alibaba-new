@@ -27,6 +27,9 @@
         <module>nacos-discovery-provider</module>
         <module>nacos-discovery-consumer</module>
         <module>nacos-config-one</module>
+        <module>nacos-dubbo</module>
+        <module>nacos-dubbo-interface</module>
+        <module>nacos-dubbo-consumer</module>
     </modules>
 
     <dependencyManagement>
